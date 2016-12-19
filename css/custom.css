@@ -10,11 +10,30 @@ p {
 	color: #373737;
 }
 
+/* ----- Nav Bar ------*/
+.navbar {
+	margin-bottom: 0px;
+	background-color: #373737;
+	color: #c0b283;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	background-color: #373737;
+	color: #f4f4f4;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	background-color: #c0b283;
+	color: #373737;
+}	
+
 .jumbotron {
 	background-color: #373737;
 }
 
-.jumbotron h1, .jumbotron p {
+.jumbotron h1, .jumbotron p, .navbar-default .navbar-brand {
 	color: #c0b283;
 }
 
